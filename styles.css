@@ -4,7 +4,8 @@ body{
     font-size: 20px;
     margin: 0px;
     width: ;
-}
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/31/18/21/fantasy-3645269_960_720.jpg");
+  }
 p{
   
   font-size: 30px;
@@ -89,4 +90,18 @@ ul {
 }
 .image{
   padding-left: 350px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+  padding-top: 50px;
+  color: #f1f1f1;
 }
